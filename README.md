@@ -1,43 +1,145 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Boutique Ado Website
 
-Welcome Terri Grierson,
+This is a website for people who like to shop. You can register yourself, then log into your account and start shopping. Your account keepsalist of everything you have bought. Select clothes to add your basket. Then purchase the clothes you have chosen and securely pay for them using stripe. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## UX
 
-## Gitpod Reminders
+The Boutique Ado website is layout is simple to use. Clear text written in black and white. A homepage has a huge image. Easy to use navigation.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Click my account on the homepage to register and log in. Click account product management once logged in as super user to add products. Click account my profile to see what you have previously bought and to change you address or telephone details. Click account and log out to log out.
 
-`python3 -m http.server`
+Click Boutique Ado to go back to the home page, click shop now to view products.
 
-A blue button should appear to click: *Make Public*,
+Click Boutique Ado to return to the homepage. Click clothing, homeware or special offers to select a product. Search my sort by button, sorting by price, rating name or category. Click edit or delete under each product to edit or delete. Click the category under the product to searcg more products in that category. Click on a product, click keep shopping to keep shppping or add to bag, click go to secure checkout, here you can update the product or remove the product and you can click keep shopping or click secure checkout, here you can input your address and card details and click complete order to order the product.
 
-Another blue button should appear to click: *Open Browser*.
+Type into the search bar to search a product.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## UI
 
-A blue button should appear to click: *Make Public*,
+This website is for people who enjoy online shopping. They want to keep a record f what they have bought.This project will help them keep a track of what they are buying.
 
-Another blue button should appear to click: *Open Browser*.
+## User Stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+* User can register there details
 
-## Updates Since The Instructional Video
+* User can log in
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+* User can keep an account of what they have bought
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* Super user can add products
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* User can search all products
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+* User can search by price, rating, name and category
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Features
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Existing Features
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+__Boutique Ado__ button takes you back to the home page.
 
---------
+__Search bar__ allows you to search the site, using key words.
 
-Happy coding!
+__Shop Now__ button allows you to view products.
+
+__Clothing__ allows you to search clothes products.
+
+__Homeware__ allows you to search home ware prducts.
+
+__Special offers__ allows you to search special offers on products.
+
+__My Account__ allows you to change your account details and view what 
+you have bought.
+
+__Bag__ allows yu to view what you have put in your bag.
+
+### Features left to implement
+
+Setting up emails to the buyer saying the have bought the item.
+
+## Technologies
+
+__Django__ The project uses the Django framwork with Python to simlify website creation
+
+__Python__ The project uses Python to build the website
+
+__JavasScript__ The project uses javascript and jQuery to simplify webite creation
+
+__CSS__ The project uses CSS to create the style of the website
+
+__HTML__ The project uses HTML to get the basic desscription and layout of the website
+
+__Git__ The project uses git tool for version control for racking changes in surce code during sftware development
+
+__GitHub__ The project uses GitHub as a git respository hosting service for the website
+
+__Heroku__ The project is launched to Heroku where you can view the website
+
+__Fontawesome__ The project uses icons from font awesome
+
+__Google Fonts__ The project uses google fonts
+
+__Bootstrap__ The project uses bootstrap for the layout of the website
+
+## Testing
+
+* Open webite on chrome, safari and firefox to manually test all links.
+
+* In dev tools the site has been tested on all mobile devices, tablets through to laptops and computers.
+
+* Click my account and register
+
+* Click my account, click log in and click sign in
+
+* Log in as super user tmg and password Hack27ney
+
+* Click my account and product management to add products
+
+* Click my account and my profile to change details and view what you have bought before
+
+* Go to search bar to search a product
+
+* Go to shop now to view products
+
+* Go to clothing link, click activewear and essentials, click jeans, shirts and all clothing.
+
+* Click homeware, click bed & bathroom, click kitchen & dinning and click all homeware.
+
+* Click on a product, choose size if available, choose quantity, click keeping shopping or click add to bag.
+
+* Click go to secure checkout,click keepshopping or secure checkout.
+
+* Enter your details name address and bank details 4242 4242 4242 4242 04/24 242 42424 click adjust bag or click complete order
+
+* Click Boutique Ado to go back to the homepage
+
+* Click account log out to log out
+
+## Bugs
+
+* When I found bugs I double clicked the site and went to dev tools check the console log and found a resolution.
+* Got rid of 404 errors.
+* Tested responsiveness of site and links.
+* Click dev tools inspect there are no bugs
+
+## Existing bugs
+None
+
+## Deployment
+* The code is hosted by master branch in GitHub
+* Deployed the project using Heroku.
+* Running the code using GitPod.
+* Used the GitPod to run and debug my code within the workspace.
+* Used console in GitPod to write code and use terminal and Git commands to send code to GitHub repository to save code.
+* Used Git to save code and view changes made.
+* Used GitHub & Heroku repository to save code.
+* Adding to the repository 
+
+## Credits
+
+Inspired by code institute project
+
+## Acknowledgements
+
+Inspired by code institute project
+
